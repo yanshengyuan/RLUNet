@@ -1,0 +1,1 @@
+python3 ./train.py --arch Uformer --gpu '0,1,2,3,4,5,6,7' --train_ps 128 --train_dir ../GoPro/train --val_dir ../GoPro/test --embed_dim 16 --warmup --batch_size 64 --lr_initial 0.002 --nepoch 500
